@@ -1,0 +1,12 @@
+n = int(input("Enter range: "))
+f1 = 0
+f2 = 1
+f3 = 0
+i = 0
+
+while i < n:
+    print(f3)
+    f3 = f1 + f2
+    f1 = f2
+    f2 = f3
+    i += 1
