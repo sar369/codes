@@ -1,0 +1,8 @@
+n1 = int(input("Enter n1: "))
+n2 = int(input("Enter n2: "))
+
+n3 = n1
+n1 = n2
+n2 = n3
+
+print("After swapping: ", n1, n2)
