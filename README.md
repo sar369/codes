@@ -1,2 +1,2 @@
-# code
-Basic C and Python programs
+# C
+Basic C  programs
