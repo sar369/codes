@@ -11,9 +11,9 @@ int main() {
         n /= 10;
     }
     if (org == rev)
-        printf(" Palindrome.");
+        printf(" Palindrome");
     else
-        printf(" Not a palindrome.");
+        printf(" Not a palindrome");
 
     return 0;
 }
