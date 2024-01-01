@@ -3,7 +3,7 @@
 
 ### explanation:
 #### 1.neon- 9
-    9 = 9*9 = 81, 8+1 = 9 --> neno number.
+     9 = 9*9 = 81, 8+1 = 9 --> neno number.
 #### 2.prime - 2
    1x2 =2,2x1=2 --> prime.
 #### 3.armstrong 153
