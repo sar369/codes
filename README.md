@@ -5,7 +5,7 @@
 #### 1.neon number
      9 = 9*9 = 81, 8+1 = 9 --> neno number.
 #### 2.prime number
-     1x2 =2,2x1=2 --> prime.
+     1x2=2,2x1=2 only 2 multiples --> prime.
 #### 3.armstrong 
      1*1*1 + 5*5*5 + 3*3*3 = 153 --> armstrong.
 #### 4.perfect number
