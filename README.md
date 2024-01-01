@@ -11,7 +11,7 @@
 #### 4.perfect number
      mul of 6 = 1+2+3 = 6 --> perfc.
 #### 5.spy number
-   Input : 1412
-sum = (1 + 4 + 1 + 2) = 8
-product = (1 * 4 * 1 * 2) = 8
-since, sum == product == 8
+     Input : 1412
+     sum = (1 + 4 + 1 + 2) = 8
+     product = (1 * 4 * 1 * 2) = 8
+     since, sum == product == 8
