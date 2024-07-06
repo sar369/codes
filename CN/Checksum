@@ -1,0 +1,36 @@
+#include<stdio.h>
+int sender(int b[10],int k)
+{
+    int i,checksum = 0;
+    printf("Sender");
+    for(i=0;i<k;i++)
+    checksum=checksum+b[i];
+    checksum=~checksum;
+    printf("Sendercheck sum: %d\n",checksum);
+    return checksum;
+}
+int reciver(int c[10],int k,int scheck)
+{
+    int i, checksum = 0;
+    printf("Revicer: \n");
+    for(i=0;i<k;i++)
+    checksum = checksum+c[i];
+    checksum = checksum+scheck;
+    if((checksum+1)==0)
+    printf("reciver checksum is 0 \n");
+    else
+    printf("reciver checksum is not 0\n");
+    return checksum;
+}
+int main()
+{
+    int a[10],i,m,scheck,rcheck;
+    printf("Enter the size of string: ");
+    scanf("%d",&m);
+    printf("Enter the elements");
+    for(i=0;i<m;i++)
+    scanf("%d",&a[i]);
+    scheck=sender(a,m);
+    rcheck = reciver(a,m,scheck);
+    return 0;
+}
