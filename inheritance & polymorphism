@@ -1,0 +1,31 @@
+class vehicle:
+    def __init__(self, brand, model, price):
+        self.brand = brand
+        self.model = model
+        self.price = price
+
+    def show(self):
+        print("Details", self.brand, self.model, "price:", self.price)
+
+    def max_speed(self):
+        print("Vehicle max speed is 110")
+
+    def gear_system(self):
+        print("Vehicle has 6 shifted gears")
+
+class car(vehicle):
+    def max_speed(self):
+        print("Car max speed is 260")
+
+    def gear_system(self):
+        print("Car has automatic transmission")
+
+car_instance = car('audi', 'cr8', 9000)
+car_instance.show()
+car_instance.max_speed()
+car_instance.gear_system()
+
+vehicle_instance = vehicle('telsa', 'triago', 5500)
+vehicle_instance.show()
+vehicle_instance.max_speed()
+vehicle_instance.gear_system()
