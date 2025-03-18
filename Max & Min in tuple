@@ -1,0 +1,5 @@
+n =  input("Enter number seperated by space: ")
+num_list = list(map(int,n.split()))
+tup = tuple(num_list)
+print("Highest value in tuple is",max(tup))
+print("lowest value in tuple is",min(tup))
